@@ -28,6 +28,7 @@ This endpoint add movies
 |storyLine|false|false|Movies Story Description|
 |screenshot|false|true|Movies Screenshoot Image /URL|
 |downloadingLink|true|true|Movies Downloading Link in All Quality|
+|comments|false|false|All comments of users.|
 
 ```shell
 curl --location --request PUT 'https://api.omnifront.cloudsnob.com/paymentmanager/cc_123456789' \
